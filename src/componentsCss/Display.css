@@ -1,0 +1,8 @@
+.display{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: darkorange;
+    height:20%;
+    font-size: 25px;
+}

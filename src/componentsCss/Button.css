@@ -1,0 +1,24 @@
+.button{
+    background-color: aqua;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width:25%;
+    min-width: 25%;
+    font-size: 30px;
+    height:20%;
+    box-sizing: border-box;
+}
+.button:hover{
+    background-color:hotpink;
+    cursor:default;
+}
+
+.button[dataSize="2"]{
+    height:40%;
+}
+.button[dataValue="null"]{
+       pointer-events: none; 
+}
