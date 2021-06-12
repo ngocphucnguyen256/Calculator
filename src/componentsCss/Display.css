@@ -4,5 +4,6 @@
     align-items: center;
     background-color: darkorange;
     height:20%;
-    font-size: 25px;
+    font-size: 40px;
+    overflow: hidden;
 }

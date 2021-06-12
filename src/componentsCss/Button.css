@@ -19,6 +19,3 @@
 .button[dataSize="2"]{
     height:40%;
 }
-.button[dataValue="null"]{
-       pointer-events: none; 
-}
