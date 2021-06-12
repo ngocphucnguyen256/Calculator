@@ -12,7 +12,7 @@ import "../componentsCss/Calculator.css"
             }
      }
      handleClick = e =>{
-        const value= e.target.getAttribute('dataValue');
+        const value= e.target.getAttribute('datavalue');
         switch (value){
             case 'clear': 
                 this.setState({data: ''});
@@ -31,6 +31,7 @@ import "../componentsCss/Calculator.css"
      
      calculate =()=>{
          try{
+             //eslint-disable-next-line
              const result = eval(this.state.data);
              this.setState({data: result});
          } catch(e){

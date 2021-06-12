@@ -6,8 +6,8 @@ import "../componentsCss/Button.css";
         return (
             <div className="button"
             onClick={this.props.onClick}
-            dataSize={this.props.size}
-            dataValue={this.props.value}>{this.props.label}</div>
+            datasize={this.props.size}
+            datavalue={this.props.value}>{this.props.label}</div>
         )
     }
 }
