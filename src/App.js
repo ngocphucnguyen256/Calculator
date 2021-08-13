@@ -5,7 +5,7 @@ import {BrowserRouter, Route} from 'react-router-dom';
 class  App extends React.Component {
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <div>
             <Route component={Calculator} path="/" exact/>
         </div>
