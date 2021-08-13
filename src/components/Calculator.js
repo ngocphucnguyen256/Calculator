@@ -41,6 +41,7 @@ import "../componentsCss/Calculator.css"
         render() {
             return (
                 <div className="calculator">
+                    <h1>Calculator App</h1> 
                     <Display data={this.state.data}/>
                     <Keypad>
                     <Button  onClick={this.handleClick} label="C" value="clear"/>
